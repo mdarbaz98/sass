@@ -581,6 +581,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 16px 0;
+  border-bottom: 2px dashed rgba(12, 48, 114, 0.3);
 }
 .strength_modal .modal-body .modal_inner_body .details_div .product-calculation .calculation .list .title {
   font-family: "Poppins";
@@ -597,12 +598,6 @@
 .strength_modal .modal-body .modal_inner_body .details_div .product-calculation .calculation .list .ship-value {
   font-size: 16px;
 }
-.strength_modal .modal-body .modal_inner_body .details_div .product-calculation .calculation .list .save-value {
-  color: #4BB543;
-}
-.strength_modal .modal-body .modal_inner_body .details_div .product-calculation .calculation .list .totalprice {
-  color: #4BB543;
-}
 .strength_modal .modal-body .modal_inner_body .details_div .product-calculation .calculation .list .total {
   font-family: "Poppins";
   font-weight: 600;
@@ -611,12 +606,19 @@
 }
 .strength_modal .modal-body .modal_inner_body .details_div .product-calculation .calculation .list .finalprice {
   font-family: "Poppins";
-  font-weight: 700;
-  font-size: 20px;
-  color: #005C97;
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
 }
-.strength_modal .modal-body .modal_inner_body .details_div .product-calculation .success-icon i {
-  color: #11AB36;
-  margin-left: 11px;
-  width: 20px;
+.strength_modal .modal-body .modal_inner_body .confirm_btn button {
+  width: 100%;
+  background: #0C3072;
+  border-radius: 8px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 0px 10px 0px;
 }

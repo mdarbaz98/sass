@@ -1,5 +1,5 @@
-// @use "./abc" as *;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 .gridmain_container {
     .main-grid {
         display: grid;
@@ -376,12 +376,12 @@
                 border: 1px solid rgba(12, 48, 114, 0.4);
                 padding: 0 24px;
                 position: relative;
-        
+
                 .round-shape-right {
                     position: absolute;
                     top: 0;
                     right: -11px;
-        
+
                     .round {
                         width: 21px;
                         height: 21px;
@@ -391,12 +391,12 @@
                         border-radius: 50%;
                     }
                 }
-        
+
                 .round-shape-left {
                     position: absolute;
                     top: 0;
                     left: -11px;
-        
+
                     .round {
                         width: 21px;
                         height: 21px;
@@ -406,23 +406,22 @@
                         border-radius: 50%;
                     }
                 }
-        
+
                 .offerapplied_main {
                     border-bottom: 2px dashed rgba(12, 48, 114, 0.3);
-                    ;
-        
+
                     .offer-applied {
                         height: 56px;
                         display: flex;
                         align-items: center;
-        
+
                         .discount {
                             font-family: 'Poppins';
                             font-weight: 600;
                             font-size: 18px;
                             color: #000000;
                         }
-        
+
                         .dis-text {
                             font-family: 'Poppins';
                             font-weight: 500;
@@ -432,7 +431,7 @@
                             margin-bottom: 0px;
                         }
                     }
-        
+
                     .remove {
                         a {
                             font-family: 'Poppins';
@@ -443,50 +442,50 @@
                         }
                     }
                 }
-        
+
                 .calculation {
-        
+
                     .list {
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
                         margin: 16px 0;
-        
+
                         .title {
-        
+
                             font-family: 'Poppins';
                             font-weight: 500;
                             font-size: 16px;
                             color: #000000;
                         }
-        
+
                         .value {
                             font-family: 'Poppins';
                             font-weight: 600;
                             font-size: 18px;
                             color: #000000;
-        
+
                         }
-        
+
                         .ship-value {
                             font-size: 16px;
                         }
-        
+
                         .save-value {
                             color: #4BB543;
                         }
-        
+
                         .totalprice {
                             color: #4BB543;
                         }
-        
+
                         .total {
                             font-family: 'Poppins';
                             font-weight: 600;
                             font-size: 18px;
                             color: #000000;
                         }
-        
+
                         .finalprice {
                             font-family: 'Poppins';
                             font-weight: 700;
@@ -495,7 +494,7 @@
                         }
                     }
                 }
-        
+
                 .success-icon {
                     i {
                         color: #11AB36;
@@ -600,7 +599,7 @@
 
     .modal-body {
         .modal_inner_body {
-            .strength{
+            .strength {
                 p {
                     font-family: 'Poppins';
                     font-weight: 600;
@@ -611,7 +610,7 @@
                     margin: 0px;
                     padding: 0px 0px 15px 0px;
                 }
-    
+
                 .chose_strength {
                     width: 100%;
                     height: auto;
@@ -619,19 +618,20 @@
                     border-radius: 16px;
                     padding: 20px;
                     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    
+
                     button {
                         width: 80px;
                         height: 32px;
                         border: 1px solid #0C3072;
                         border-radius: 12px;
                         margin: 0px 10px 10px 0px;
-    
+
                     }
                 }
             }
-            .pills{
-                p{
+
+            .pills {
+                p {
                     font-family: 'Poppins';
                     font-weight: 600;
                     font-size: 20px;
@@ -641,27 +641,29 @@
                     margin: 0px;
                     padding: 15px 0px 15px 0px;
                 }
-                .numberofpills{
+
+                .numberofpills {
                     width: 100%;
                     height: auto;
                     background: #FFFFFF;
                     border-radius: 16px;
                     padding: 20px;
                     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    
-                    button{
+
+                    button {
                         width: 80px;
                         height: 32px;
                         border: 1px solid #0C3072;
                         border-radius: 12px;
                         margin: 0px 10px 10px 0px;
-    
+
                     }
                 }
-               
+
             }
-            .details_div{
-                p{
+
+            .details_div {
+                p {
                     font-family: 'Poppins';
                     font-weight: 600;
                     font-size: 20px;
@@ -671,18 +673,19 @@
                     margin: 0px;
                     padding: 15px 0px 15px 0px;
                 }
+
                 .product-calculation {
                     margin-bottom: 15px;
                     background: #FFFFFF;
                     border: 1px solid rgba(12, 48, 114, 0.4);
                     padding: 0 24px;
                     position: relative;
-    
+
                     .round-shape-right {
                         position: absolute;
                         top: 0;
                         right: -11px;
-    
+
                         .round {
                             width: 21px;
                             height: 21px;
@@ -692,12 +695,12 @@
                             border-radius: 50%;
                         }
                     }
-    
+
                     .round-shape-left {
                         position: absolute;
                         top: 0;
                         left: -11px;
-    
+
                         .round {
                             width: 21px;
                             height: 21px;
@@ -707,67 +710,68 @@
                             border-radius: 50%;
                         }
                     }
+
                     .calculation {
-    
+
                         .list {
                             display: flex;
                             align-items: center;
                             justify-content: space-between;
                             margin: 16px 0;
-    
+                            border-bottom: 2px dashed rgba(12, 48, 114, 0.3);
+
                             .title {
                                 font-family: 'Poppins';
                                 font-weight: 400;
                                 font-size: 14px;
                                 color: #000000;
                             }
-    
+
                             .value {
                                 font-family: 'Poppins';
                                 font-weight: 600;
                                 font-size: 18px;
                                 color: #000000;
-    
+
                             }
-    
+
                             .ship-value {
                                 font-size: 16px;
                             }
-    
-                            .save-value {
-                                color: #4BB543;
-                            }
-    
-                            .totalprice {
-                                color: #4BB543;
-                            }
-    
+
+
                             .total {
                                 font-family: 'Poppins';
                                 font-weight: 600;
                                 font-size: 18px;
                                 color: #000000;
                             }
-    
+
                             .finalprice {
                                 font-family: 'Poppins';
-                                font-weight: 700;
-                                font-size: 20px;
-                                color: #005C97;
+                                font-weight: 600;
+                                font-size: 18px;
+                                color: #000000;
+
                             }
                         }
                     }
-    
-                    .success-icon {
-                        i {
-                            color: #11AB36;
-                            margin-left: 11px;
-                            width: 20px;
-                        }
-                    }
+                }
+            }
+            .confirm_btn{
+                button {
+                    width: 100%;
+                    background: #0C3072;
+                    border-radius: 8px;
+                    font-family: 'Roboto';
+                    font-weight: 500;
+                    font-size: 14px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    border: none;
+                    padding: 10px 0px 10px 0px;
                 }
             }
         }
     }
 }
-
