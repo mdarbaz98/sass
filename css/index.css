@@ -14,7 +14,6 @@
 }
 .gridmain_container .main-grid .cart_container {
   width: 655px;
-  height: 150px;
   background: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
@@ -24,7 +23,7 @@
 .gridmain_container .main-grid .cart_container .inner-grid {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 10px;
+  padding: 15px;
 }
 .gridmain_container .main-grid .cart_container .inner-grid .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
@@ -42,11 +41,13 @@
 }
 .gridmain_container .main-grid .cart_container .inner-grid .inner_item2 {
   font-family: "Poppins";
+  padding: 0px 10px 10px 0px;
 }
 .gridmain_container .main-grid .cart_container .inner-grid .inner_item2 p {
   font-weight: 600;
   font-size: 18px;
   color: #000000;
+  margin-bottom: 0px;
 }
 .gridmain_container .main-grid .cart_container .inner-grid .inner_item2 p span {
   font-weight: 600;
@@ -84,11 +85,14 @@
 }
 .gridmain_container .main-grid .cart_container .inner-grid .inner_item4 {
   font-family: "Poppins";
+  padding: 0px 10px 10px 0px;
 }
 .gridmain_container .main-grid .cart_container .inner-grid .inner_item4 p {
   font-weight: 600;
   font-size: 16px;
   color: #000000;
+  margin-bottom: 0px;
+  padding: 0px 10px 0px 0px;
 }
 .gridmain_container .main-grid .cart_container .inner-grid .inner_item4 p span {
   font-weight: 600;
@@ -100,8 +104,9 @@
 }
 .gridmain_container .main-grid .cart_container .inner-grid .inner_item5 p {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
   color: #000000;
+  margin-bottom: 0px;
 }
 .gridmain_container .main-grid .cart_container .inner-grid .inner_item5 p span {
   font-weight: 600;
@@ -120,6 +125,7 @@
   font-weight: 600;
   font-size: 16px;
   color: #0C3072;
+  margin-bottom: 0;
 }
 .gridmain_container .main-grid .cart_container .inner-grid .inner_item7 {
   font-family: "Poppins";
@@ -131,6 +137,7 @@
   text-transform: capitalize;
   color: #0C3072;
   text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 0px;
 }
 .gridmain_container .main-grid .cart_container .inner-grid .inner_item7 p span {
   font-weight: 600;
@@ -139,6 +146,7 @@
   text-decoration-line: line-through;
   text-transform: capitalize;
   color: #A80E0E;
+  padding: 0px 0px 0px 10px;
 }
 .gridmain_container .main-grid .cart_container .inner-grid .inner_item7 button {
   width: 77px;
@@ -149,6 +157,9 @@
   font-size: 16px;
   color: #0C3072;
   background-color: #fff;
+}
+.gridmain_container .main-grid .cart_container .inner-grid .inner_item7 button:focus {
+  box-shadow: none;
 }
 .gridmain_container .main-grid .empty_cart button {
   width: 113px;
@@ -467,6 +478,7 @@
 .strength_modal .modal-header {
   border-bottom: none;
   font-family: "Poppins";
+  padding: 5px 17px 10px 10px;
 }
 .strength_modal .modal-header .title {
   font-weight: 500;
@@ -475,6 +487,7 @@
   align-items: center;
   text-align: center;
   color: #0C3072;
+  margin: 0 auto;
 }
 .strength_modal .modal-header .title span {
   font-style: normal;
@@ -482,6 +495,11 @@
   font-size: 18px;
   text-align: center;
   color: #000000;
+}
+.strength_modal .modal-header .btn-close {
+  border: 1px solid #1C1B1F;
+  border-radius: 50%;
+  font-size: 8px;
 }
 .strength_modal .modal-body .modal_inner_body .strength p {
   font-family: "Poppins";
@@ -588,6 +606,12 @@
   font-weight: 400;
   font-size: 14px;
   color: #000000;
+  position: relative;
+}
+.strength_modal .modal-body .modal_inner_body .details_div .product-calculation .calculation .list .title::after {
+  position: absolute;
+  content: "";
+  border: 1px solid #ddd;
 }
 .strength_modal .modal-body .modal_inner_body .details_div .product-calculation .calculation .list .value {
   font-family: "Poppins";
