@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+.gridmain_container {
+  padding: 0px 50px;
+}
 .gridmain_container .main-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 150px);
   padding: 30px 0px;
   gap: 6%;
 }
-.gridmain_container .main-grid .grid-item .total p {
+.gridmain_container .main-grid .outer_item1 .total p {
   font-family: "Poppins";
   font-weight: 600;
   font-size: 20px;
@@ -13,7 +17,7 @@
   text-align: center;
 }
 .gridmain_container .main-grid .cart_container {
-  width: 655px;
+  width: auto;
   background: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
@@ -172,6 +176,10 @@
   font-size: 14px;
   color: #A80E0E;
 }
+.gridmain_container .main-grid .outer_item3 {
+  grid-row-start: 3;
+  margin-top: 90px;
+}
 .gridmain_container .main-grid .outer_item3 .budget p {
   text-align: center;
   font-family: "Poppins";
@@ -312,6 +320,9 @@
   font-weight: 600;
   font-size: 16px;
   color: #0C3072;
+}
+.gridmain_container .main-grid .outer_item4 {
+  grid-column-start: 2;
 }
 .gridmain_container .main-grid .outer_item4 .product-calculation {
   margin-bottom: 15px;
@@ -475,6 +486,33 @@
   object-fit: contain;
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .gridmain_container {
+    padding: 0px 15px;
+  }
+  .gridmain_container .main-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .gridmain_container .main-grid .outer_item1 {
+    order: 2;
+    padding-top: 40px;
+  }
+  .gridmain_container .main-grid .outer_item3 {
+    order: 4;
+    margin-top: 35px;
+  }
+  .gridmain_container .main-grid .outer_item2 {
+    order: 1;
+  }
+  .gridmain_container .main-grid .outer_item2 .add_sec .profile_picdiv2 .profile_add p {
+    font-size: 10px;
+  }
+  .gridmain_container .main-grid .outer_item4 {
+    order: 3;
+    padding-top: 25px;
+  }
+}
 .strength_modal .modal-header {
   border-bottom: none;
   font-family: "Poppins";
@@ -488,6 +526,16 @@
   text-align: center;
   color: #0C3072;
   margin: 0 auto;
+  position: relative;
+}
+.strength_modal .modal-header .title::after {
+  position: absolute;
+  content: "";
+  width: 120px;
+  height: 0px;
+  left: 85px;
+  top: 56px;
+  border: 0.5px solid rgba(0, 0, 0, 0.6);
 }
 .strength_modal .modal-header .title span {
   font-style: normal;
@@ -606,12 +654,6 @@
   font-weight: 400;
   font-size: 14px;
   color: #000000;
-  position: relative;
-}
-.strength_modal .modal-body .modal_inner_body .details_div .product-calculation .calculation .list .title::after {
-  position: absolute;
-  content: "";
-  border: 1px solid #ddd;
 }
 .strength_modal .modal-body .modal_inner_body .details_div .product-calculation .calculation .list .value {
   font-family: "Poppins";
