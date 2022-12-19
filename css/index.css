@@ -16,7 +16,7 @@
   color: #000000;
   text-align: center;
 }
-.gridmain_container .main-grid .cart_container {
+.gridmain_container .main-grid .outer_item1 .cart_container {
   width: auto;
   background: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -24,44 +24,44 @@
   border-radius: 18px;
   margin-bottom: 30px;
 }
-.gridmain_container .main-grid .cart_container .inner-grid {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 15px;
 }
-.gridmain_container .main-grid .cart_container .inner-grid .grid-item {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 30px;
   padding: 0px;
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item1 {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item1 {
   grid-column: 1/2;
   grid-row: 1/4;
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item1 img {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item1 img {
   width: 108px;
   height: auto;
   object-fit: contain;
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item2 {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item2 {
   font-family: "Poppins";
   padding: 0px 10px 10px 0px;
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item2 p {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item2 p {
   font-weight: 600;
   font-size: 18px;
   color: #000000;
   margin-bottom: 0px;
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item2 p span {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item2 p span {
   font-weight: 600;
   font-size: 16px;
   color: #A0A0A0;
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item3 {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item3 {
   font-family: "Poppins";
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item3 .off {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item3 .off {
   width: 71px;
   height: 22px;
   background: #A4FB9C;
@@ -71,7 +71,7 @@
   color: #15A508;
   font-size: 15px;
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item3 button {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item3 button {
   width: 40.17px;
   height: 33.08px;
   background: #FEDDDB;
@@ -79,7 +79,7 @@
   border: none;
   position: relative;
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item3 button img {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item3 button img {
   width: 16.54px;
   height: 16.54px;
   object-fit: contain;
@@ -87,54 +87,54 @@
   top: 9px;
   left: 12px;
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item4 {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item4 {
   font-family: "Poppins";
   padding: 0px 10px 10px 0px;
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item4 p {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item4 p {
   font-weight: 600;
   font-size: 16px;
   color: #000000;
   margin-bottom: 0px;
   padding: 0px 10px 0px 0px;
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item4 p span {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item4 p span {
   font-weight: 600;
   font-size: 16px;
   color: #6B6B6B;
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item5 {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item5 {
   font-family: "Poppins";
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item5 p {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item5 p {
   font-weight: 600;
   font-size: 15px;
   color: #000000;
   margin-bottom: 0px;
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item5 p span {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item5 p span {
   font-weight: 600;
   font-size: 16px;
   color: #6B6B6B;
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item6 {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item6 {
   font-family: "Poppins";
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item6 img {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item6 img {
   width: 20px;
   height: 20px;
   object-fit: contain;
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item6 p {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item6 p {
   font-weight: 600;
   font-size: 16px;
   color: #0C3072;
   margin-bottom: 0;
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item7 {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item7 {
   font-family: "Poppins";
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item7 p {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item7 p {
   font-weight: 600;
   font-size: 20px;
   text-align: center;
@@ -143,7 +143,7 @@
   text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
   margin-bottom: 0px;
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item7 p span {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item7 p span {
   font-weight: 600;
   font-size: 14px;
   text-align: center;
@@ -152,7 +152,7 @@
   color: #A80E0E;
   padding: 0px 0px 0px 10px;
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item7 button {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item7 button {
   width: 77px;
   height: 38px;
   border: 1px solid #0C3072;
@@ -162,10 +162,10 @@
   color: #0C3072;
   background-color: #fff;
 }
-.gridmain_container .main-grid .cart_container .inner-grid .inner_item7 button:focus {
+.gridmain_container .main-grid .outer_item1 .cart_container .inner-grid .inner_item7 button:focus {
   box-shadow: none;
 }
-.gridmain_container .main-grid .empty_cart button {
+.gridmain_container .main-grid .outer_item1 .empty_cart button {
   width: 113px;
   height: 24px;
   background: #FFFFFF;
@@ -175,6 +175,16 @@
   font-weight: 500;
   font-size: 14px;
   color: #A80E0E;
+}
+.gridmain_container .main-grid .outer_item1 .sample .shipping img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+.gridmain_container .main-grid .outer_item1 .sample .off img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
 }
 .gridmain_container .main-grid .outer_item3 {
   grid-row-start: 3;
