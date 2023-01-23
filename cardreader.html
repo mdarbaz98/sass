@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Newlands Clothings</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+
+    <label for="card_number">Card Number</label>
+    <input id="card_number" name="card_number" type="text" aria-required="true" required />
+    <fieldset class="cards">
+        <input type="radio" id="amex" name="creditcard" value="amex">
+        <label for="amex" class="amex">amex</label>
+        <input type="radio" name="creditcard" id="visa" value="visa">
+        <label for="visa" class="visa">visa</label>
+        <input type="radio" name="creditcard" id="discover" value="discover" id="discover">
+        <label for="discover" class="discover">discover</label>
+        <input type="radio" name="creditcard" value="mastercard" id="mastercard">
+        <label for="mastercard" class="mastercard">mastercard</label>
+    </fieldset>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        (function () {
+            var cardReader = {
+                visa: /^4/,
+                mastercard: /^5[1-5]/,
+                amex: /^3[47]/,
+                discover: /^6/
+            };
+            function getCreditCardType() {
+                var accountNumber = document.getElementById("card_number").value;
+                function setCardStatus(cardString, checkedStatus) {
+                    document.getElementById(cardString).checked = checkedStatus;
+                }
+                for (var card in cardReader) {
+                    setCardStatus(card, false);
+                    if (cardReader[card].test(accountNumber)) {
+                        setCardStatus(card, true);
+                    }
+                }
+            }
+
+            document
+                .getElementById("card_number")
+                .addEventListener("keyup", getCreditCardType);
+        })();
+
+    </script>
+</body>
+
+</html>
