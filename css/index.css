@@ -503,6 +503,7 @@
   .gridmain_container .main-grid {
     display: flex;
     flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
   }
   .gridmain_container .main-grid .outer_item1 {
     order: 2;
